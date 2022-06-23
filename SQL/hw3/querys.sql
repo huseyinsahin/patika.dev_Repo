@@ -10,7 +10,6 @@ WHERE country LIKE '%_____n'
 SELECT title FROM film
 WHERE title ILIKE '%t%t%t%t%'
 
-
 --Sort the data in all columns in the film table starting with the character title 'C' and length (length) greater than 90 and rental_rate 2.99 from the data in all columns.
 SELECT * FROM film
 WHERE title LIKE 'C%'AND length > 90 AND rental_rate = 2.99;
