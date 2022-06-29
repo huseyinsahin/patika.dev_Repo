@@ -10,7 +10,7 @@ public class Taximeter {
         distanceTraveled = input.nextDouble();
 
         amount = distanceTraveled * holdsPerKM;
-        taximeterAmount = (amount >= 20) ? (amount + openingFee) : (minAmount)12;
+        taximeterAmount = (amount >= 20) ? (amount + openingFee) : (minAmount);
 
         System.out.print("Taximeter Amount : " + taximeterAmount);
 
