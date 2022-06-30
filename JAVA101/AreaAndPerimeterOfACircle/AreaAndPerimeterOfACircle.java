@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class AreaAndPerimeterOfACircle {
     public static void main(String[] args) {
-        //değişkenler buraya gelecek
+
         double radius, area, perimeter, circleSliceAngle, circleSliceArea;
         double pi = 3.14;
     
