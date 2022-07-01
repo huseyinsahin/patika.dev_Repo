@@ -15,7 +15,10 @@ public class SortingNumbers {
         System.out.print("Please enter third number : ");
         thirdNumber = input.nextInt();
 
-        if(firstNumber < secondNumber && firstNumber < thirdNumber){
+        if((firstNumber == secondNumber) || (firstNumber == thirdNumber) || (secondNumber == thirdNumber)){
+            System.out.println("Numbers Shouldn't Be Equal to Each Other!!");
+        }
+        else if(firstNumber < secondNumber && firstNumber < thirdNumber){
             if(secondNumber < thirdNumber){
                 System.out.println(firstNumber + " < " + secondNumber + " < " + thirdNumber);
             }
