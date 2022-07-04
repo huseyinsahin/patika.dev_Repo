@@ -17,9 +17,8 @@ public class FibonacciSeries {
             lastNumber = nextNumber;
 
         }
+        
         input.close();
 
-
-        
     }
 }
