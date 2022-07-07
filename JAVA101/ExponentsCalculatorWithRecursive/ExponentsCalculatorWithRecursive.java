@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ExponentsCalculatorWithRecursive {
     
     static int exponentsCalculator(int base, int exponent){
-        
+
         if(exponent == 0){
             return 1;
         }else{
@@ -17,7 +17,7 @@ public class ExponentsCalculatorWithRecursive {
 
         System.out.print("Enter the base number : ");
         int base = input.nextInt();
-        System.out.print("Enter the exponent number : 4");
+        System.out.print("Enter the exponent number : ");
         int exponent = input.nextInt();
 
         System.out.println("Result : "+ exponentsCalculator(base, exponent));
