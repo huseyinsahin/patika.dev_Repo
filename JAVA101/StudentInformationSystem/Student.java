@@ -15,7 +15,7 @@ public class Student{
         this.math = math;
         this.physics = physics;
         this.chemistry = chemistry;
-        //this.average = 0.0;
+        calcAverage();
         this.isPass = false;
     }
 
