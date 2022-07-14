@@ -1,7 +1,4 @@
 import java.util.Scanner;
-import java.sql.Array;
-import java.util.Arrays;
-
 
 public class MinAndMaxValueInArray {
     
